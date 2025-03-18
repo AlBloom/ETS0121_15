@@ -8,3 +8,7 @@ N.B. The original string is not modified. Instead, a new string is returned with
 The str.upper() method converts all lowercase characters in a string to uppercase. Just like str.lower() it does not modify the original string; instead, it returns a new string with all characters in uppercase. Also this method does not take any parameters. 
 It returns a new string where all lowercase characters are converted to uppercase. Non-alphabetic characters and the one's which are already an uppercase remain unchanged.
 N.B. Like the previous one the original string is not modified. Instead, a new string is returned with all characters converted to uppercase.
+
+# str.capitalize()
+The capitalize() method in Python is a string method that returns a copy of the original string with the first character capitalized and the rest of the characters in lowercase. If the string is empty or the first character is already capitalized, the method will return the string as is.
+
