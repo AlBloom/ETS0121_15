@@ -12,3 +12,6 @@ N.B. Like the previous one the original string is not modified. Instead, a new s
 # str.capitalize()
 The capitalize() method in Python is a string method that returns a copy of the original string with the first character capitalized and the rest of the characters in lowercase. If the string is empty or the first character is already capitalized, the method will return the string as is.
 
+# isupper()
+The isupper() method in Python is used to check if all the alphabetic characters in a string are uppercase. If all letters are uppercase, it returns True, otherwise, it returns False. The method only checks alphabetic characters; numbers and symbols do not affect the result.
+If the string contains at least one lowercase letter, it returns False.
