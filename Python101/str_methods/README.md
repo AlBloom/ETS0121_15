@@ -15,3 +15,18 @@ The capitalize() method in Python is a string method that returns a copy of the 
 # isupper()
 The isupper() method in Python is used to check if all the alphabetic characters in a string are uppercase. If all letters are uppercase, it returns True, otherwise, it returns False. The method only checks alphabetic characters; numbers and symbols do not affect the result.
 If the string contains at least one lowercase letter, it returns False.
+
+# islower()
+The islower() method in Python is a string method that checks whether all characters (letters) in the string are lowercase. If all the characters are lowercase, it returns True; otherwise, it returns False. Non-alphabetic characters (like numbers, symbols, or whitespace) are ignored and do not affect the result.
+like isupper() this method does not take any parameters.
+
+# str.swapcase()
+The swapcase() method is a string method that returns a new string where all the uppercase letters are converted to lowercase, and all the lowercase letters are converted to uppercase. Non-alphabetic characters (like numbers, symbols, or whitespace) remain unchanged.
+Again this method does not take any parameters.It returns a new string with the case of each character swapped.
+
+# str.find()
+The find() method is a string method that searches for the first occurrence of a substring within the string. If the substring is found, it returns the index of the first character of the substring. If the substring is not found, it returns -1.
+SYNTAX: string.find(substring, start, end)
+    substring: The substring to search for in the string.
+    start (optional): The starting index within the string where the search begins. Default is 0.
+    end (optional): The ending index within the string where the search ends. Default is the end of the string.
