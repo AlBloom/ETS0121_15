@@ -24,9 +24,27 @@ like isupper() this method does not take any parameters.
 The swapcase() method is a string method that returns a new string where all the uppercase letters are converted to lowercase, and all the lowercase letters are converted to uppercase. Non-alphabetic characters (like numbers, symbols, or whitespace) remain unchanged.
 Again this method does not take any parameters.It returns a new string with the case of each character swapped.
 
+# str.title()
+The str.title() method in Python is a string method that returns a new string where the first character of each word is capitalized (title case), and the rest of the characters in each word are lowercase. Words are considered to be sequences of characters separated by whitespace.
+You might have noticed that this method is used to modify the capitalization of strings like the capitalize method, but they behave differently. While capitilize method capitalizes only the first character of the "string", the title method first character of each "word".
+
 # str.find()
 The find() method is a string method that searches for the first occurrence of a substring within the string. If the substring is found, it returns the index of the first character of the substring. If the substring is not found, it returns -1.
 SYNTAX: string.find(substring, start, end)
     substring: The substring to search for in the string.
+    start (optional): The starting index within the string where the search begins. Default is 0.
+    end (optional): The ending index within the string where the search ends. Default is the end of the string.
+
+# str.index()
+The index() method in Python is a string method that searches for the first occurrence of a substring within the string. If the substring is found, it returns the index of the first character of the substring. If the substring is not found, it raises a ValueError.
+SYNTAX: string.index(substring, start, end)
+    substring: The substring to search for in the string.
+    start (optional): The starting index within the string where the search begins. Default is 0.
+    end (optional): The ending index within the string where the search ends. Default is the end of the string.
+
+# str.count()
+The count() method in Python is a string method that returns the number of non-overlapping occurrences of a substring within the string. If the substring is not found, it returns 0.
+SYNTAX: string.count(substring, start, end)
+    substring: The substring to count occurrences of in the string.
     start (optional): The starting index within the string where the search begins. Default is 0.
     end (optional): The ending index within the string where the search ends. Default is the end of the string.
