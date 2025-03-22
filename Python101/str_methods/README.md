@@ -48,3 +48,24 @@ SYNTAX: string.count(substring, start, end)
     substring: The substring to count occurrences of in the string.
     start (optional): The starting index within the string where the search begins. Default is 0.
     end (optional): The ending index within the string where the search ends. Default is the end of the string.
+
+# str.replace()
+The replace() method in Python is a string method that returns a new string where all occurrences of a specified substring are replaced with another substring.
+SYNTAX: string.replace(old, new, count)
+    old: The substring to be replaced.
+    new: The substring to replace the old substring.
+    count (optional): The maximum number of occurrences to replace. If not specified, all occurrences are replaced.
+
+# str.startswith()
+The startswith() method in Python is a string method that checks whether the string starts with a specified substring. It returns True if the string starts with the substring, otherwise False.
+SYNTAX: string.startswith(prefix, start, end)
+    prefix: The substring to check at the beginning of the string.
+    start (optional): The starting index within the string where the check begins. Default is 0.
+    end (optional): The ending index within the string where the check ends. Default is the end of the string.
+
+# str.endswith()
+The endswith() method in Python is a string method that checks whether the string ends with a specified substring. It returns True if the string ends with the substring, otherwise False.
+SYNTAX: string.endswith(suffix, start, end)
+    suffix: The substring to check at the end of the string.
+    start (optional): The starting index within the string where the check begins. Default is 0.
+    end (optional): The ending index within the string where the check ends. Default is the end of the string.
