@@ -69,3 +69,18 @@ SYNTAX: string.endswith(suffix, start, end)
     suffix: The substring to check at the end of the string.
     start (optional): The starting index within the string where the check begins. Default is 0.
     end (optional): The ending index within the string where the check ends. Default is the end of the string.
+
+# str.strip()
+The strip() method in Python is a string method that removes leading and trailing whitespace (spaces, tabs, and newlines) from the string. It can also remove specified characters if provided. The resulting valaue will be a new string with leading and trailing characters removed.
+SYNTAX: string.strip([chars])
+    The parameter chars (optional) is a string specifying the characters to remove. If not provided, it removes whitespace by default.
+
+# str.lstrip()
+The lstrip() method in Python is a string method that removes leading whitespace (or specified characters) from the string. It only affects the left side (beginning) of the string. This method results a new string with leading characters removed.
+SYNTAX: string.lstrip([chars])
+    Again the parameter arameters chars (optional) is a string specifying the characters to remove. If not provided, it removes whitespace by default.
+
+# str.rstrip()
+The rstrip() method in Python is a string method that removes trailing whitespace (or specified characters) from the string. It only affects the right side (end) of the string. Tis one will result a new string with trailing characters removed.
+SYNTAX: string.lstrip([chars])
+    Again the parameter arameters chars (optional) is a string specifying the characters to remove. If not provided, it removes whitespace by default.
