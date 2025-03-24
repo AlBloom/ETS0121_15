@@ -84,3 +84,21 @@ SYNTAX: string.lstrip([chars])
 The rstrip() method in Python is a string method that removes trailing whitespace (or specified characters) from the string. It only affects the right side (end) of the string. Tis one will result a new string with trailing characters removed.
 SYNTAX: string.lstrip([chars])
     Again the parameter arameters chars (optional) is a string specifying the characters to remove. If not provided, it removes whitespace by default.
+
+# str.split()
+This method splits a string into a list of substrings by breaking it at each occurrence of a specified delimiter.
+SYNTAX: string.split(sep=None, maxsplit=-1)
+    sep: Delimiter (default: whitespace). If not specified, splits on any whitespace.
+    maxsplit: Maximum number of splits (default: -1, meaning all occurrences).
+
+# str.join()
+This method takes an iterable (list, tuple, etc.) of strings and concatenates them into a single string, with the original string used as the separator. If the iterable contains non-strings (e.g., integers), it raises a TypeError. T fix that we have to convert them to strings first.
+SYNTAX: separator.join(iterable)
+    iterable: List, tuple, etc., containing strings to join.
+    separator: String used to join the elements.
+
+# str.format()
+The str.format() method is a string formatting tool in Python that replaces placeholders ({}) in a string with specified values. 
+SYNTAX: "Template with {} placeholders".format(values)
+    The {} acts as a placeholder
+    Values are passed to .format() in order
