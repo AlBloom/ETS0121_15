@@ -94,7 +94,7 @@ SYNTAX: string.split(sep=None, maxsplit=-1)
 # str.join()
 This method takes an iterable (list, tuple, etc.) of strings and concatenates them into a single string, with the original string used as the separator. If the iterable contains non-strings (e.g., integers), it raises a TypeError. T fix that we have to convert them to strings first.
 SYNTAX: separator.join(iterable)
-    iterable: List, tuple, etc., containing strings to join.
+    iterable: L((ist, tuple, etc., containing strings to join.
     separator: String used to join the elements.
 
 # str.format()
@@ -102,3 +102,12 @@ The str.format() method is a string formatting tool in Python that replaces plac
 SYNTAX: "Template with {} placeholders".format(values)
     The {} acts as a placeholder
     Values are passed to .format() in order
+
+# str.isalpha()
+This method checks if all characters in the string are alphabetic (letters) and if the string is not empty. The method returns True only if all characters are letters and also if the string has at least one character. It will returns False for empty strings and if they are strings with spaces, numbers, or symbols (e.g., "Hello!", "Python3").
+
+# str.isdigital()
+This one you might say is the opposite of the  str.isalpha() method, in which this method checks if all characters in the string are digits (0-9) and the string is not empty.The method returns True only if all characters are digits (0-9) and that the string has at least one character.It will returns False for empty strings and strings with spaces, decimals, signs, or letters (e.g., "-123", "3.14", "0xFF").
+
+# str.isalnum()
+This one is like merging the above two methods in to one (isalpha + isdigit). This method checks if all characters are alphanumeric (letters or digits) and the string is not empty.The method returns True if all characters are letters (A-Z, a-z) or digits (0-9) and the string has at least one character. It will returns False for empty strings and strings with spaces or symbols (e.g., "Hello!", "code 4").
