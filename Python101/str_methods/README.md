@@ -111,3 +111,23 @@ This one you might say is the opposite of the  str.isalpha() method, in which th
 
 # str.isalnum()
 This one is like merging the above two methods in to one (isalpha + isdigit). This method checks if all characters are alphanumeric (letters or digits) and the string is not empty.The method returns True if all characters are letters (A-Z, a-z) or digits (0-9) and the string has at least one character. It will returns False for empty strings and strings with spaces or symbols (e.g., "Hello!", "code 4").
+
+# str.isspace() Method in Python
+The isspace() method checks if all characters in a string are whitespace characters and the string is not empty. Whitespace Characters Include: Space ( ), Tab (\t), Newline (\n), Carriage return (\r), Vertical tab (\v), Form feed (\f)
+
+# f-strings (Formatted String Literals)
+f-strings are a way to embed expressions inside string literals. They are the fastest and most readable method for string formatting. They are used writing an f or F before the string, then place expressions inside {} that get evaluated at runtime. This method can be used on all Python expressions, including function calls, arithmetic, etc.
+
+# len() 
+This method returns the length (number of items) of an object. It is mostly used in Strings (counts characters), Lists, tuples, sets (counts elements), Dictionaries (counts keys), Bytes, bytearrays, etc.
+
+# str.encode()
+This method is used in converting a string to a bytes object (the way computers store data) using a specified encoding (default: UTF-8).
+SYNTAX: str.encode(encoding="utf-8", errors="strict")
+    encoding: The character encoding to use (common ones: "utf-8", "ascii", "latin-1").
+    errors: How to handle encoding problems:
+        strict (default): Raise an error
+        ignore: Skip problematic characters
+        replace: Use a replacement marker (�)
+Note: There is another method the is called str.decode which decodes the string that the str.encode() made. You can see it on the py file
+We use this methode when saving text to binary files (open(filename, "wb")), when sending data over networks (HTTP, sockets), or when working with libraries that require bytes (like some cryptographic functions).
