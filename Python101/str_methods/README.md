@@ -94,7 +94,7 @@ SYNTAX: string.split(sep=None, maxsplit=-1)
 # str.join()
 This method takes an iterable (list, tuple, etc.) of strings and concatenates them into a single string, with the original string used as the separator. If the iterable contains non-strings (e.g., integers), it raises a TypeError. T fix that we have to convert them to strings first.
 SYNTAX: separator.join(iterable)
-    iterable: L((ist, tuple, etc., containing strings to join.
+    iterable: List, tuple, etc., containing strings to join.
     separator: String used to join the elements.
 
 # str.format()
