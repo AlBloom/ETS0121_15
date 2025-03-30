@@ -24,3 +24,17 @@ SYNTAX: list.index(element, start, end)
     element: value to be searched
     start: index to start searching, optional and on default it starts from 0
     end: index to stop searching, optional and on default goes through all the list
+
+# list.insert()
+This method lets us add/insert an element at any position we want in a list. It will modify the list with the added element.
+SYNTAX: list.insert(index, element)
+    index: the position to put the element
+    element: the data to be inserted in the list
+
+# list.pop()
+This one removes an element at the specified index and returns the item when called for. It modifies the list in to the one with the removed element.
+SYNTAX: list.pop(index)
+
+# list.remove()
+Unlike the pop() method this one removes the first occurance of an element or value that was specified. It modifies the list by removing that value.
+SYNTAX: list.remove(value)
