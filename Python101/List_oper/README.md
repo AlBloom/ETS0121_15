@@ -38,3 +38,12 @@ SYNTAX: list.pop(index)
 # list.remove()
 Unlike the pop() method this one removes the first occurance of an element or value that was specified. It modifies the list by removing that value.
 SYNTAX: list.remove(value)
+
+# list.reverse()
+This python will reverse the order of elements in the list in place. It doesn't take parameters and it will modify the original list with the reversed one.
+
+# list.sort()
+This one as the name imply sorts the elements of the list in place. When sorting, for numbers it sorts numerically and for strings it sorts alphabetically(N.B. it is case sensetive)
+SYNTAX: list.sort(key=None, reverse=False)
+    key: Function to determine sort order (optional)
+    reverse: If True, sorts in descending order (default: False)
