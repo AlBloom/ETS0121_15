@@ -18,3 +18,12 @@ This method is used to return a list containing a tuple for each key value pair.
 
 # dict.keys()
 This method is used when we want only the keys in the dictionary. It returns a view object of all keys in the dictionary. This method also has a feature which returns a dynamic dict_keys object (updates if the dictionary changes).
+
+# dict.values()
+This method is the oppostie of the key() method in which that this one eeturns a list of all the values in the dictionary. We also has the returning feature which is a dynamic dict_values object (updates if the dictionary changes).
+
+# dict.clear()
+This method is straight forward in way that it removes all elements of a key-value pairs from the dictionary. It modifies the dictionary in to an empty one.
+
+# dict.copy()
+This one is the same as the one in the list methods. This method creates a shallow copy of the dictionary (i.e. new object, same values). When called it will return a copy of the original dictionary.
