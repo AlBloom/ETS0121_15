@@ -27,3 +27,18 @@ This method is straight forward in way that it removes all elements of a key-val
 
 # dict.copy()
 This one is the same as the one in the list methods. This method creates a shallow copy of the dictionary (i.e. new object, same values). When called it will return a copy of the original dictionary.
+
+# dict.pop()
+This one is again the same in the one on the list method. It is used to remove a specific key and returns its value when it is called. If the key doesn’t exist, it returns a default value, or raises KeyError if no default is provided.
+SYNTAX value = dictionary.pop(key, default)
+    key : key to remove.
+    default (optional): value to return if the key is missing.
+
+# dict.popitem()	
+Unlike the pop() method this one removes the last inserted key-value pair and retures it when called.
+
+# dict.setdefault()	
+Returns the value for key if it exists. If not, it inserts key with a specified value or a default value (None) and returns the vlaue. If the key does exist and we write the default in the parameter it will not modify the dictionary.
+SYNTAX: value = dictionary.setdefault(key, default)
+    key : the key to lookup/insert.
+    default (optional): value to assign if key is missing (defaults to None).
