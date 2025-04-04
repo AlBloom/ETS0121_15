@@ -42,3 +42,7 @@ Returns the value for key if it exists. If not, it inserts key with a specified 
 SYNTAX: value = dictionary.setdefault(key, default)
     key : the key to lookup/insert.
     default (optional): value to assign if key is missing (defaults to None).
+
+# dict.update()
+This method is used update or insert new datas in the dictionary. It works by merging a dictionary or iterable of key-value pairs into an existing dictionary. The original dictionary will be modified with the new updates.
+SYNTAX: dict.update(iterable_or_dict)
