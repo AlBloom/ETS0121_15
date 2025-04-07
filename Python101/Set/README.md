@@ -19,3 +19,12 @@ Going back to our elementery school knowledge this method is as function we used
 
 # set.intersect_update()
 Opposite to the above defined method this one Modifies the set by keeping only elements common to all specified sets.
+
+# set.union()
+This is another topic that we learned in elementary. We use this method to create a new set with combination of elements from multiple sets. When doing that it excludes duplicates.
+
+# set.symmetric_difference()
+This method is used to compare between two sets by returning elements that are in either set, but not both. It is done by making a new set so the original sets will not be modified.
+
+# set.symmetric_difference_update()
+This one is similar with the above one except this one updates the original set to keep only elements in either set, but not both. Meaning this method will modify the original set.
