@@ -28,3 +28,13 @@ This method is used to compare between two sets by returning elements that are i
 
 # set.symmetric_difference_update()
 This one is similar with the above one except this one updates the original set to keep only elements in either set, but not both. Meaning this method will modify the original set.
+
+# set.update()
+This method is used to update the set by adding new elements from the iterables (i.e.list, tuple, set, etc that are put in the parenthesis) to the set. 
+As the name impliy the method will update or modify the original set.
+
+# set.pop()
+This method is used to remove and return an arbitrary element (i.e. unpredictable) from the set. It will modify the original set are we can call it to return us the removed elements. 
+
+# set.remove()
+Unlike the pop() method this one removes a specified element from the set. It will modify the original set but can't call for it (if we do we will get "None").
