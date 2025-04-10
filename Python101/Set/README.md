@@ -38,3 +38,12 @@ This method is used to remove and return an arbitrary element (i.e. unpredictabl
 
 # set.remove()
 Unlike the pop() method this one removes a specified element from the set. It will modify the original set but can't call for it (if we do we will get "None").
+
+# isdisjoint()
+This method checks if two sets have no common elements. It returns "True" if the sets share no elements or "False" if at least one common element exists.
+
+# issubset()
+This on checks if all elements of the set are present in other. Returns "True" if the current set is a subset of other or "False" if at least one element is missing in other.	
+
+# issuperset()
+This checks if the set contains all elements of other. It returns "True" if the current set is a superset of other or "False" if at least one element of other is missing.
