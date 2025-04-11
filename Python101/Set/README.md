@@ -47,3 +47,14 @@ This on checks if all elements of the set are present in other. Returns "True" i
 
 # issuperset()
 This checks if the set contains all elements of other. It returns "True" if the current set is a superset of other or "False" if at least one element of other is missing.
+
+->The methods that are described below are useful but  less common or you might say they are not the core methods used on sets. The core methods are already coverd. 
+
+# set.copy()
+This make a new set that returns a shallow copy of the original set.
+
+# set.clear()
+This method is used to modify the set by clearing or removing  all elements from the set.
+
+# set.len()
+Used to determine the number of elements in the set.
